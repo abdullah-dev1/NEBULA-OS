@@ -16,9 +16,6 @@
 
 ---
 
-**Salman Shoaib** (24P-0583) · **Abdullah Nadeem** (24P-0563) · **Shoaib Altaf** (24F-0737)
-
-*Operating Systems Lab — Spring 2026*
 
 </div>
 
@@ -60,18 +57,18 @@ The project was built to demonstrate and implement real operating system concept
 
 | Feature | Description |
 |---|---|
-| 🖥️ **23 Application Modules** | From calculator to music player to a space guessing game |
-| 📋 **Process Control Block (PCB)** | Full PCB table with PID, state, priority, resource allocation |
-| ⚙️ **Multi-Level Queue Scheduler** | Q0 (System), Q1 (Interactive), Q2 (Background) with Round Robin |
-| 🧠 **Memory Manager** | RAM and HDD quota enforcement per process |
-| 🔗 **IPC via Named Pipes** | Processes request resources and receive grants through FIFOs |
-| 🔒 **Deadlock Detector** | Resource Allocation Graph + DFS cycle detection, runs every 5s |
-| 📡 **Signal Handling** | SIGCHLD, SIGUSR1, SIGTSTP, SIGCONT for process control |
-| 📜 **System Logger** | Timestamped event log with rotation via Log Daemon |
-| 🔄 **Process Aging** | Prevents starvation — background tasks promoted over time |
-| 🗂️ **Virtual HDD** | Simulated filesystem at `nebula_hdd/` for all apps to use |
-| 🎵 **Music Player** | Real `.mp3` playback via `mpg123` |
-| 👻 **Background Daemons** | Clock Daemon, Log Daemon, System Monitor run at startup |
+|  **23 Application Modules** | From calculator to music player to a space guessing game |
+|  **Process Control Block (PCB)** | Full PCB table with PID, state, priority, resource allocation |
+|  **Multi-Level Queue Scheduler** | Q0 (System), Q1 (Interactive), Q2 (Background) with Round Robin |
+|  **Memory Manager** | RAM and HDD quota enforcement per process |
+|  **IPC via Named Pipes** | Processes request resources and receive grants through FIFOs |
+|  **Deadlock Detector** | Resource Allocation Graph + DFS cycle detection, runs every 5s |
+|  **Signal Handling** | SIGCHLD, SIGUSR1, SIGTSTP, SIGCONT for process control |
+|  **System Logger** | Timestamped event log with rotation via Log Daemon |
+|  **Process Aging** | Prevents starvation — background tasks promoted over time |
+|  **Virtual HDD** | Simulated filesystem at `nebula_hdd/` for all apps to use |
+|  **Music Player** | Real `.mp3` playback via `mpg123` |
+|  **Background Daemons** | Clock Daemon, Log Daemon, System Monitor run at startup |
 
 ---
 
@@ -385,21 +382,7 @@ cp your_songs/*.mp3 music/
 # → Select [11] Music Player
 ```
 
----
-
-## Team
-
-| Name | Student ID | Role |
-|---|---|---|
-| Salman Shoaib | 24P-0583 | Kernel Core, Scheduler, IPC |
-| Abdullah Nadeem | 24P-0563 | Process Manager, Deadlock Detector |
-| Shoaib Altaf | 24F-0737 | Task Modules, Storage Manager |
-
----
 
 <div align="center">
-
-*Nebula OS V3 — Operating Systems Lab Project*
-*Built with C/C++ · Runs on Linux · No dependencies except POSIX*
 
 </div>
